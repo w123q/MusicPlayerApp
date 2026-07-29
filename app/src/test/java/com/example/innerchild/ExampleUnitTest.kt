@@ -1,4 +1,4 @@
-package com.example.the9archetypes
+package com.example.innerchild
 
 import org.junit.Test
 

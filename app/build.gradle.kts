@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.the9archetypes"
+    namespace = "com.example.innerchild"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.the9archetypes"
+        applicationId = "com.example.innerchild"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

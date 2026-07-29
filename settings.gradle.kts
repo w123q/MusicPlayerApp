@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "The 9 Archetypes"
+rootProject.name = "InnerChild"
 include(":app")
