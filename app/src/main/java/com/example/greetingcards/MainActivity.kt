@@ -58,17 +58,15 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun CardAppScreen(modifier: Modifier = Modifier) {
-    // 1. 宣告 State (狀態) - 當這些數值改變，UI 就會自動重繪
     var name by remember { mutableStateOf("小明") }
-    var selectedColor by remember { mutableStateOf(Color(0xFFFFD1DC)) } // 預設柔和粉紅
-    var showSticker by remember { mutableStateOf(true) } // 是否顯示驚喜貼紙
+    var selectedColor by remember { mutableStateOf(Color(0xFFFFD1DC)) }
+    var showSticker by remember { mutableStateOf(true) }
 
-    // 顏色選單
     val colorOptions = listOf(
-        Color(0xFFFFD1DC), // 粉紅
-        Color(0xFFE2F0CB), // 淺綠
-        Color(0xFFC7CEEA), // 淺藍
-        Color(0xFFFFDAC1)  // 蜜桃橘
+        Color(0xFFFFD1DC),
+        Color(0xFFE2F0CB),
+        Color(0xFFC7CEEA),
+        Color(0xFFFFDAC1)
     )
 
     Column(
@@ -85,10 +83,8 @@ fun CardAppScreen(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(bottom = 16.dp)
         )
 
-        // 2. 賀卡預覽卡片
         Card(
-            modifier = Modifier
-                .size(width = 280.dp, height = 360.dp),
+            modifier = Modifier.size(width = 280.dp, height = 360.dp),
             colors = CardDefaults.cardColors(containerColor = selectedColor),
             shape = RoundedCornerShape(24.dp),
             elevation = CardDefaults.cardElevation(defaultElevation = 8.dp)
@@ -99,7 +95,6 @@ fun CardAppScreen(modifier: Modifier = Modifier) {
                     .padding(16.dp),
                 contentAlignment = Alignment.Center
             ) {
-                // 卡片中央文字
                 Text(
                     text = "祝 $name\n節日快樂！✨",
                     fontSize = 26.sp,
@@ -109,24 +104,20 @@ fun CardAppScreen(modifier: Modifier = Modifier) {
                     color = Color(0xFF333333)
                 )
 
-                // 驚喜動畫貼紙（Level 2 的 AnimatedVisibility）
+                // 顯式呼叫全域 AnimatedVisibility 避免 Scope 衝突
                 androidx.compose.animation.AnimatedVisibility(
                     visible = showSticker,
                     enter = scaleIn() + fadeIn(),
                     exit = scaleOut() + fadeOut(),
                     modifier = Modifier.align(Alignment.TopEnd)
                 ) {
-                    Text(
-                        text = "🎁",
-                        fontSize = 36.sp
-                    )
+                    Text(text = "🎁", fontSize = 36.sp)
                 }
             }
         }
 
         Spacer(modifier = Modifier.height(24.dp))
 
-        // 3. 輸入名字欄位
         OutlinedTextField(
             value = name,
             onValueChange = { name = it },
@@ -137,7 +128,6 @@ fun CardAppScreen(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // 4. 卡片顏色選擇器
         Text("選擇卡片顏色：", fontSize = 14.sp, color = Color.Gray)
         Spacer(modifier = Modifier.height(8.dp))
         Row(
@@ -162,7 +152,6 @@ fun CardAppScreen(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // 5. 切換貼紙開關
         Button(onClick = { showSticker = !showSticker }) {
             Text(if (showSticker) "隱藏右上角禮物" else "加上右上角禮物")
         }
