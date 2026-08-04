@@ -1,4 +1,4 @@
-package com.example.innerchild.ui.theme
+package com.example.greetingcards.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

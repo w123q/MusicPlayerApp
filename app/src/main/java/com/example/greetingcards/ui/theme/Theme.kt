@@ -1,4 +1,4 @@
-package com.example.innerchild.ui.theme
+package com.example.greetingcards.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun InnerChildTheme(
+fun GreetingCardsTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "InnerChild"
+rootProject.name = "Greeting Cards"
 include(":app")

@@ -1,4 +1,4 @@
-package com.example.innerchild
+package com.example.greetingcards
 
 import org.junit.Test
 
