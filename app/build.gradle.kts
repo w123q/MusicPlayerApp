@@ -23,6 +23,8 @@ android {
         release {
             optimization {
                 enable = false
+                buildFeatures {
+                    viewBinding = true
             }
         }
     }
@@ -32,6 +34,7 @@ android {
     }
     buildFeatures {
         compose = true
+        viewBinding=true
     }
 }
 
@@ -46,8 +49,13 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.fragment)
+    implementation(libs.androidx.gridlayout)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.recyclerview)
     implementation(libs.material)
+    implementation(libs.play.services.ads)
+    implementation(libs.play.services.maps)
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
@@ -55,4 +63,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+}
 }

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">business card</string>
+    <string name="name" >Name:</string>
+    <string name="enter_name" />
 </resources>
