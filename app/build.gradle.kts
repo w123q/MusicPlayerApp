@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.greetingcards"
+    namespace = "com.example.businesscard"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.greetingcards"
+        applicationId = "com.example.businesscard"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
