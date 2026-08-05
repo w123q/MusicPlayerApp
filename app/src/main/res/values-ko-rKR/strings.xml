@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">business card</string>
+    <string name="name">이름</string>
+    <string name="btn_enter">확인하다</string>
+    <string name="str_TextView">텍스트 보기</string>
+    <string name="str_text">텍스트를 표시하려면</string>
+</resources>
