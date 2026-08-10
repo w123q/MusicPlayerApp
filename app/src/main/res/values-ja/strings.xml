@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">business card</string>
-    <string name="name">名前</string>
-    <string name="btn_enter">確認する</string>
-    <string name="str_TextView">テキストビュー</string>
-    <string name="str_text">テキストを表示する</string>
-</resources>

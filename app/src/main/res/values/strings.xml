@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">business card</string>
-    <string name="name" >Name:</string>
-    <string name="btn_enter">確認</string>
-    <string name="str_TextView">TextView</string>
-    <string name="str_text">要顯示的文字</string>
-</resources>
