@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  FoodPicker
 //
-//  Created by Chaiau on 2026/8/10.
+//  Created by Chaiau on 2026/8/11.
 //
 
 import SwiftUI
@@ -10,10 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Image("images")
+				.resizable()
+				.aspectRatio(contentMode:.fit)
         }
         .padding()
     }

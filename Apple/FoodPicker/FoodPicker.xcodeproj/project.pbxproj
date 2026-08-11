@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		946457603029CAB80064A110 /* FoodPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9485835D302AAB9F00364385 /* FoodPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		946457623029CAB80064A110 /* FoodPicker */ = {
+		9485835F302AAB9F00364385 /* FoodPicker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = FoodPicker;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9464575D3029CAB80064A110 /* Frameworks */ = {
+		9485835A302AAB9F00364385 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		946457573029CAB80064A110 = {
+		94858354302AAB9F00364385 = {
 			isa = PBXGroup;
 			children = (
-				946457623029CAB80064A110 /* FoodPicker */,
-				946457613029CAB80064A110 /* Products */,
+				9485835F302AAB9F00364385 /* FoodPicker */,
+				9485835E302AAB9F00364385 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		946457613029CAB80064A110 /* Products */ = {
+		9485835E302AAB9F00364385 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				946457603029CAB80064A110 /* FoodPicker.app */,
+				9485835D302AAB9F00364385 /* FoodPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9464575F3029CAB80064A110 /* FoodPicker */ = {
+		9485835C302AAB9F00364385 /* FoodPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9464576B3029CAB90064A110 /* Build configuration list for PBXNativeTarget "FoodPicker" */;
+			buildConfigurationList = 94858368302AAB9F00364385 /* Build configuration list for PBXNativeTarget "FoodPicker" */;
 			buildPhases = (
-				9464575C3029CAB80064A110 /* Sources */,
-				9464575D3029CAB80064A110 /* Frameworks */,
-				9464575E3029CAB80064A110 /* Resources */,
+				94858359302AAB9F00364385 /* Sources */,
+				9485835A302AAB9F00364385 /* Frameworks */,
+				9485835B302AAB9F00364385 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				946457623029CAB80064A110 /* FoodPicker */,
+				9485835F302AAB9F00364385 /* FoodPicker */,
 			);
 			name = FoodPicker;
 			packageProductDependencies = (
 			);
 			productName = FoodPicker;
-			productReference = 946457603029CAB80064A110 /* FoodPicker.app */;
+			productReference = 9485835D302AAB9F00364385 /* FoodPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		946457583029CAB80064A110 /* Project object */ = {
+		94858355302AAB9F00364385 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
-					9464575F3029CAB80064A110 = {
+					9485835C302AAB9F00364385 = {
 						CreatedOnToolsVersion = 26.6;
 					};
 				};
 			};
-			buildConfigurationList = 9464575B3029CAB80064A110 /* Build configuration list for PBXProject "FoodPicker" */;
+			buildConfigurationList = 94858358302AAB9F00364385 /* Build configuration list for PBXProject "FoodPicker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 946457573029CAB80064A110;
+			mainGroup = 94858354302AAB9F00364385;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 946457613029CAB80064A110 /* Products */;
+			productRefGroup = 9485835E302AAB9F00364385 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9464575F3029CAB80064A110 /* FoodPicker */,
+				9485835C302AAB9F00364385 /* FoodPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9464575E3029CAB80064A110 /* Resources */ = {
+		9485835B302AAB9F00364385 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9464575C3029CAB80064A110 /* Sources */ = {
+		94858359302AAB9F00364385 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		946457693029CAB90064A110 /* Debug */ = {
+		94858366302AAB9F00364385 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		9464576A3029CAB90064A110 /* Release */ = {
+		94858367302AAB9F00364385 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		9464576C3029CAB90064A110 /* Debug */ = {
+		94858369302AAB9F00364385 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		9464576D3029CAB90064A110 /* Release */ = {
+		9485836A302AAB9F00364385 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9464575B3029CAB80064A110 /* Build configuration list for PBXProject "FoodPicker" */ = {
+		94858358302AAB9F00364385 /* Build configuration list for PBXProject "FoodPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				946457693029CAB90064A110 /* Debug */,
-				9464576A3029CAB90064A110 /* Release */,
+				94858366302AAB9F00364385 /* Debug */,
+				94858367302AAB9F00364385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9464576B3029CAB90064A110 /* Build configuration list for PBXNativeTarget "FoodPicker" */ = {
+		94858368302AAB9F00364385 /* Build configuration list for PBXNativeTarget "FoodPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9464576C3029CAB90064A110 /* Debug */,
-				9464576D3029CAB90064A110 /* Release */,
+				94858369302AAB9F00364385 /* Debug */,
+				9485836A302AAB9F00364385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 946457583029CAB80064A110 /* Project object */;
+	rootObject = 94858355302AAB9F00364385 /* Project object */;
 }
