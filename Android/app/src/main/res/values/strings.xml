@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Packing &amp;Traavel Checklist</string>
+    <!-- 既有項目 -->
+    <string name="app_name">Packing &amp; Travel Checklist</string>
+    <string name="tab_travel">旅遊清單</string>
+    <string name="tab_daily">生活日常</string>
+    <string name="tab_emergency">緊急電話</string>
+    <string name="police">警察</string>
+    <string name="ambulance">救護車</string>
+
+    <!-- 新增：設定頁面字串 -->
+    <string name="tab_settings">設定</string>
+    <string name="settings_clear_checked">清空已勾選項目</string>
+    <string name="settings_clear_checked_desc">重置所有清單的勾選狀態</string>
+    <string name="settings_app_version">App 版本</string>
+    <string name="settings_about">關於 Packing Checklist</string>
 </resources>
