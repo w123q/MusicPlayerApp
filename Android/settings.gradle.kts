@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Packing &Traavel Checklist"
+rootProject.name = "SimpleMusicPlayer"
 include(":app")
